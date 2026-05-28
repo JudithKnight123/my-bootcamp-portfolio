@@ -280,6 +280,8 @@ Flex Grid
 
 .rise-shake:hover {
   animation: jump-shaking 0.83s infinite;
+  transition: 0.5s;
+  scale: 1.05;
 }
 @keyframes jump-shaking {
   0% { transform: translateX(0) }
