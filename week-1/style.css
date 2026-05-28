@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Oswald");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define CSS variables for light and dark mode */
+:root {
+    --heading-color: #fbf3ff;
+    --heading-font: #fbf3ff;
+    --bg-color: #322039;
+    --box-border-color:rgba(44, 0, 133, 0.1);
+    --text-color: #000000;
+    --text-color-white: #ffffff;
+    --table-border-color: #dddddd;
+    --header-bg-color: #f1f1f1;
+    --header-text-color: #333333;
+    --box: #FFFFFF; 
+    --box-shadow-color: 7px 9px 2px rgba(47, 0, 140, 0.1);
+}
+/*---------
+HEADER
+---------- */
+header {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0, 157, 255, 0.8);
+  background: linear-gradient(
+    150deg,
+    rgba(33, 33, 33, 0.7),
+    rgba(0, 0, 0, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+  background: url("./images/background.jpg")
+    no-repeat center center/cover;
+}
+
+.header-content {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-content img {
+  width: 350px;
+  height: 250px;
+  border-radius: 50%;
+  border: 0.5em solid rgb(252, 252, 252);
+
+}
+header h1 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.6em;
+  color: var(--heading-color);
+  font-weight: 400;
+  /* text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61); */
+}
+
+header h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 2.4em;
+  color: rgb(49, 41, 61);
+}
+
+header p {
+  font-family: "Oswald", sans-serif;
+  color: rgb(252, 252, 252);
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+header a,
+header a:visited {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  padding-bottom: 0.1em;
+  border: none;
+}
+
+header a:hover {
+  color: rgb(49, 41, 61);
+  transition: color 0.3s;
+}
+
+@media (width > 800px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+  header h2 {
+    font-size: 1.4em;
+  }
+}
+/*---------
+NAV
+---------- */
+
+nav {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgb(49, 41, 61);
+  font-size: 1em;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(53, 53, 53);
+}
+
+nav a {
+}
+
+nav a,
+nav a:visited {
+  padding-bottom: 0.1em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61);
+  color: rgb(252, 252, 252);
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  background-color: rgb(53, 53, 53);
+  border: none;
+  padding: 0.5em;
+}
+
+
+nav a:hover,
+nav a:active {
+  color: rgb(0, 242, 255);
+  transition: color 0.3s;
+}
+
+@media (width > 800px) {
+
+  nav {
+    flex-direction: row;
+  }
+}
+/*---------
+SECTION ONE
+---------- */
+
+section#section-one {
+  height: 100vh;
+  height: 100svh;
+  background: rgba(255, 153, 0, 0.8);
+  background: linear-gradient(
+    150deg,
+    rgba(255, 153, 0, 0.8),
+    rgba(255, 245, 0, 0.7)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section#section-one h2 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.6em;
+  color: var(--heading-color);
+  font-weight: 400;
+  /* text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61); */
+}
+
+section#section-one h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 2.4em;
+  color: rgb(49, 41, 61);
+}
+
+section#section-one p {
+  font-family: "Oswald", sans-serif;
+  color: rgb(49, 41, 61);
+  font-size: 1.6em;
+  font-weight: 400;
+  width: 80%;
+  max-width: 750px;
+}
+
+/*---------
+SECTION TWO
+---------- */
+section#section-two {
+  background: #222;
+  padding: 2em 0;
+
+}
+@media (width > 1300px) {
+
+section#section-two {
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  }
+}
+/*---------
+SECTION THREE
+---------- */
+section#section-three {
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 245, 0, 0.8);
+  background: linear-gradient(
+    150deg,
+    rgba(255, 245, 0, 0.8),
+    rgba(0, 255, 98, 0.7)
+  );
+}
+
+
+/*---------
+Flex Grid
+---------*/
+
+.flex-container {
+  background:none;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  justify-content: space-around;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.content-container {
+  height: auto;
+  line-height: 180px;
+  text-align: center;
+  color: white;
+  font-size: 20vh;
+  width: 48%;
+  margin: 0.5% 0;
+  border-radius: 8px;
+}
+
+.content-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content-container:hover{
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.rise-shake:hover {
+  animation: jump-shaking 0.83s infinite;
+}
+@keyframes jump-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateY(-9px) }
+  35% { transform: translateY(-9px) rotate(17deg) }
+  55% { transform: translateY(-9px) rotate(-17deg) }
+  65% { transform: translateY(-9px) rotate(17deg) }
+  75% { transform: translateY(-9px) rotate(-17deg) }
+  100% { transform: translateY(0) rotate(0) }
+}
+@media (width > 1300px) {
+
+.content-container {
+  width: 24%;
+  }
+}
+
+.content-container:hover {
+  background: #2055a4;
+}
+
+
+section h1 {
+  color: rgb(49, 41, 61);
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 0.8em 0 0 0.6em;
+}
+
+section h2 {
+  color: rgb(49, 41, 61);
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(250, 250, 250, 0.8);
+  border: 0.1em solid rgb(49, 41, 61);
+  -webkit-box-shadow: 0.1em 0.1em 0.1em;      
+  box-shadow: 0.1em 0.1em 0.1em rgba(252, 252, 252, 0.8);
+  border-radius: 0.2em;
+  font-size: 2em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  background:#222;
+}
+
+footer p {
+  font-family: "Oswald", sans-serif;
+  text-shadow: 0.1em 0.1em 0.1em #31293d;
+  letter-spacing: 0.1em;
+  color: rgb(252, 252, 252);
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0.4em;
+}
+
+footer a,
+footer a:visited {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  padding-bottom: 0.1em;
+}
+
+footer a:hover,
+footer a:active {
+  color: rgb(49, 41, 61);
+  border-bottom: rgb(49, 41, 61) solid 0.1em;
+}
+
+/*---------
+CONTACT FORM
+---------- */
+
+.contact-form-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+h3::before {
+    content: "🌟 ";
+    font-size: 30px;
+    vertical-align: middle;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.email-label::before {
+    content: "💌 ";
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+.password-label::before {
+    content: "🔑 ";
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+select {
+    width: 100%;
+}
+input:focus,
+textarea:focus {
+    background-color: #eee;
+}
+input:required,
+textarea:required {
+    border: 2px solid red;
+}
+input:invalid {
+    background-color: #ffe0e0;
+}
+input:valid{
+    background-color: #ffffff;
+}
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:link,
+button:visited,
+button:focus {
+    background-color: #4cae4c;
+}
+button:hover {
+    transition: 0.5s;
+    background-color: #000;
+    transform:scale(1.5) rotate(360deg);
+}
+
+/* Pseudo-elements for Email and Phone Labels */
+/* Add ✉️ and 📞 icons before the labels */
+
+
+/* Styling the Terms and Conditions Link */
+.terms-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.terms-link:hover {
+    transition: 0.5s;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline; 
+    transition: 0.3s;
+}
+/* Add hover and visited states for the link */
+/* ::before pseudo-element for <h1> */
