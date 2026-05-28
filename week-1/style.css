@@ -8,16 +8,11 @@ body {
 /* Define CSS variables for light and dark mode */
 :root {
     --heading-color: #fbf3ff;
-    --heading-font: #fbf3ff;
-    --bg-color: #322039;
-    --box-border-color:rgba(44, 0, 133, 0.1);
-    --text-color: #000000;
-    --text-color-white: #ffffff;
-    --table-border-color: #dddddd;
-    --header-bg-color: #f1f1f1;
-    --header-text-color: #333333;
-    --box: #FFFFFF; 
-    --box-shadow-color: 7px 9px 2px rgba(47, 0, 140, 0.1);
+    --heading-fontsize: 3.6em;
+    --heading-font: "Oswald", sans-serif;
+    --para-font: "Oswald", sans-serif;
+    --para-fontsize: 1.6em;
+    --bg-color: #222;
 }
 /*---------
 HEADER
@@ -56,28 +51,27 @@ align-items: center;
   height: 250px;
   border-radius: 50%;
   border: 0.5em solid rgb(252, 252, 252);
-
 }
 header h1 {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
-  font-size: 3.6em;
+  font-size: var(--heading-fontsize);
   color: var(--heading-color);
   font-weight: 400;
   /* text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61); */
 }
 
 header h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--heading-font);
   font-weight: 700;
   font-size: 2.4em;
   color: rgb(49, 41, 61);
 }
 
 header p {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--para-font);
   color: rgb(252, 252, 252);
-  font-size: 1.6em;
+  font-size: var(--para-fontsize);
   font-weight: 400;
 }
 
@@ -164,7 +158,7 @@ section#section-one {
   background: linear-gradient(
     150deg,
     rgba(255, 153, 0, 0.8),
-    rgba(255, 245, 0, 0.7)
+    #fffcb3b3
   );
   display: flex;
   flex-direction: column;
@@ -189,7 +183,7 @@ section#section-one h2 {
 }
 
 section#section-one p {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--para-font);
   color: rgb(49, 41, 61);
   font-size: 1.6em;
   font-weight: 400;
@@ -201,7 +195,7 @@ section#section-one p {
 SECTION TWO
 ---------- */
 section#section-two {
-  background: #222;
+  background: var(--bg-color);
   padding: 2em 0;
 
 }
@@ -226,7 +220,7 @@ section#section-three {
   background: rgba(255, 245, 0, 0.8);
   background: linear-gradient(
     150deg,
-    rgba(255, 245, 0, 0.8),
+    #fbddffcc,
     rgba(0, 255, 98, 0.7)
   );
 }
@@ -326,30 +320,21 @@ section h2 {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   padding: 1em;
-  background:#222;
+  background: var(--bg-color);
 }
 
 footer p {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--para-font);
   text-shadow: 0.1em 0.1em 0.1em #31293d;
   letter-spacing: 0.1em;
   color: rgb(252, 252, 252);
-  font-size: 1.2em;
+  font-size: inherit;
   font-weight: 400;
   margin: 0.4em;
 }
