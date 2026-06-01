@@ -58,7 +58,7 @@ header h1 {
   font-size: var(--heading-fontsize);
   color: var(--heading-color);
   font-weight: 400;
-  /* text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61); */
+  text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61);
 }
 
 header h2 {
@@ -90,7 +90,7 @@ header a:hover {
 
 @media (width > 800px) {
   header h1 {
-    font-size: 1.8em;
+    font-size: 2.8em;
   }
   header h2 {
     font-size: 1.4em;
