@@ -172,7 +172,6 @@ section#section-one h2 {
   font-size: 3.6em;
   color: var(--heading-color);
   font-weight: 400;
-  /* text-shadow: 0.1em 0.1em 0.1em rgb(49, 41, 61); */
 }
 
 section#section-one h2 {
@@ -191,7 +190,7 @@ section#section-one p {
   max-width: 750px;
 }
 
-/*---------
+/*--------- 
 SECTION TWO
 ---------- */
 section#section-two {
@@ -206,6 +205,7 @@ section#section-two h2 {
   color: var(--heading-color);
   text-align: center;
   display: block;
+  margin-top: 0;
 }
 @media (width > 1300px) {
 
@@ -257,7 +257,6 @@ Flex Grid
 
 .content-container {
   height: auto;
-  line-height: 180px;
   text-align: center;
   color: white;
   font-size: 20vh;
@@ -268,9 +267,20 @@ Flex Grid
 
 .content-container img{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
+}
+.content-container a{
+  text-decoration: none;
+}
+.content-container h3 {  
+  font-size: 16px;
+  font-family: var(--heading-font);
+  margin: 0.5em;
+  padding: 0.5em;
+  text-decoration: none;
+  color: rgb(252, 252, 252);
 }
 
 .content-container:hover{
@@ -347,11 +357,11 @@ CONTACT FORM
     text-align: center;
 }
 
-h3 {
+section#section-three h3 {
     margin-bottom: 20px;
     font-size: 24px;
 }
-h3::before {
+section#section-three h3::before {
     content: "🌟 ";
     font-size: 30px;
     vertical-align: middle;
