@@ -205,7 +205,7 @@ section#section-two h2 {
   color: var(--heading-color);
   text-align: center;
   display: block;
-  margin-top: 0;
+  margin: 0.5em 0;
 }
 @media (width > 1300px) {
 
@@ -261,7 +261,7 @@ Flex Grid
   color: white;
   font-size: 20vh;
   width: 48%;
-  margin: 0.5% 0;
+  margin:0;
   border-radius: 8px;
 }
 
