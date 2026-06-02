@@ -3,10 +3,10 @@
 A personal portfolio webpage from scratch includes a contact form, projects, about section, header and navigation.
 
 ## Features
-* **Feature A:** Header - Bold central profile and background
+* **Feature A:** Header - Bold central profile and background fills the full browser space
 * **Feature B:** About me - Short paragraph about me
-* **Feature C:** Projects - a flexbox featuring latest projects
-* **Feature D:** Contact - a contact form with phone number and email
+* **Feature C:** Projects - a flexbox featuring a clean layout of latest projects
+* **Feature D:** Contact - a centered contact form with phone number and email
 * **Feature D:** Footer - a simple footer
   
 
