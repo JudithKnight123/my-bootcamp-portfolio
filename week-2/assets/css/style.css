@@ -1,0 +1,152 @@
+:root{
+    --primary-color: #333;
+    --secondary-color: #ccc;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.mb-1{
+    margin-bottom: 1em;
+}
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+p{
+    padding: 10px 0;
+}
+.content img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+/* The CSS ensures the height scales fluidly with the width */
+.responsive-img {
+  width: 100%;
+  height: auto; /* Crucial: overrides the 150px default height */
+  display: block;
+}
+
+header {
+    background-color: #FFFFFF;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Flexbox navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: #333;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .navbar a {
+    padding: 20px 20px;
+}
+}
+.navbar a:hover {
+    background-color: #999999;
+    transition: background-color 0.5s ease;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    max-width: 1100px;
+}
+
+.container .content-header.hp-position {
+order:2;
+}
+.container .content.hp-position {
+order:1;
+}
+
+/* Flexbox content area */
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.content-header {
+    padding: 20px;
+}
+
+/* Flexbox items */
+.box {
+    background-color: #eee;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box:first-child {
+width: 100%;
+flex-basis: 100%; /* Forces the first item to take the whole row */
+
+}
+.box:hover {
+    background-color: #ccc;
+    transition: background-color 0.5s ease;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 300px;
+}
+@media (min-width: 768px) {
+
+.col.one {
+    flex: 2; /* Takes up twice the space of .col.two on larger screens */
+}
+.col.two {
+    flex: 1; /* Takes up the remaining space */
+}
+}
+
+/* Footer styling */
+footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
