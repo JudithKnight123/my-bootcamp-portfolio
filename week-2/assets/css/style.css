@@ -155,7 +155,110 @@ flex-basis: 100%; /* Forces the first item to take the whole row */
     flex: 1; /* Takes up the remaining space */
 }
 }
+/*---------
+CONTACT FORM
+---------- */
 
+.contact-form-container {
+    box-sizing: border-box;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+@media (min-width: 768px) {
+
+.contact-form-container {
+    text-align: left;
+}
+}
+
+.contact-form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contact-form-container h1::before {
+    content: "🌟 ";
+    font-size: 30px;
+    vertical-align: middle;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.email-label::before {
+    content: "💌 ";
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+.password-label::before {
+    content: "🔑 ";
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+}
+input:focus,
+textarea:focus {
+    background-color: #eee;
+}
+input:required,
+textarea:required {
+    border: 2px solid red;
+}
+input:invalid {
+    background-color: #ffe0e0;
+}
+input:valid{
+    background-color: #ffffff;
+}
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:link,
+button:visited,
+button:focus {
+    background-color: #4cae4c;
+}
+button:hover {
+    transition: 0.5s;
+    background-color: #000;
+    transform:scale(1.5) rotate(360deg);
+}
+
+/* Styling the Terms and Conditions Link */
+.terms-link {
+    color: #000;
+    text-decoration: none;
+}
+.terms-link:hover {
+    color: #666;
+    text-decoration: underline; 
+}
 /* Footer styling */
 footer {
     background-color: #ccc;
