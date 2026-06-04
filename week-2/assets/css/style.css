@@ -1,3 +1,5 @@
+
+
 :root{
     --bg-color: #f4f4f4;
     --header-color: #FFFFFF;
@@ -315,7 +317,7 @@ SERVICES PAGE
     pointer-events: none;
 }
  .snippet__title{
-    font:1.8rem/1 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font:1.8rem/1 Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
     margin: 0.5em 0;
 }
@@ -328,13 +330,13 @@ SERVICES PAGE
 
  .snippet__title--small{
     text-transform: initial;
-    font-family: 'Playball', cursive;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: block;
     font-size:1.8rem;
     margin:0.5em 0;
 }
 .snippet__para{
-    font-family: 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #666;
     font-size: 1.2rem;
 }
@@ -344,7 +346,7 @@ SERVICES PAGE
     color: #FFF;
     text-transform: uppercase;
     text-align: center;
-    font: 0.8rem 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font: 0.8rem Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: inline-flex;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -361,8 +363,8 @@ SERVICES PAGE
 }
 /* Footer styling */
 footer {
-    background-color: #ccc;
-    color: #333;
+    background-color: var(--pale-grey);
+    color: var(--primary-font-color);
     padding: 20px 0;
     margin-top: 20px;
 }
