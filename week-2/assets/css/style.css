@@ -259,6 +259,99 @@ button:hover {
     color: #666;
     text-decoration: underline; 
 }
+
+
+/*--------------
+SERVICES PAGE
+-----------------*/
+
+
+ .snippet__box{
+	font-size: 62.5%;
+}
+
+/*-----------------------------
+1 COL SECTION
+----------------------------*/
+ .snippet__col{
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+    }
+ .snippet__box{
+    background: #eee;
+    
+}
+ .snippet__box--inner{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 3em 0;
+    text-align: center;
+    margin: 1em 0;    
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+ .snippet__box--inner:before{ 
+    margin: 0;
+    border: 0px solid #eee;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+ .snippet__title{
+    font:1.8rem/1 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+
+ .snippet__title--sub{
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: block 
+}
+
+ .snippet__title--small{
+    text-transform: initial;
+    font-family: 'Playball', cursive;
+    display: block;
+    font-size:1.8rem;
+    margin:0.5em 0;
+}
+.snippet__para{
+    font-family: 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #666;
+    font-size: 1.2rem;
+}
+ .snippet__cta{
+    padding: 10px 30px;
+    background: #222;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font: 0.8rem 'OpenSans-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+ .snippet__box:hover .snippet__cta{
+    background: #666;
+}
+
+@media (min-width: 1200px) {
+    
+     .snippet__title{ font-size: 2em}
+     .snippet__cta{font-size: 1em;}
+}
 /* Footer styling */
 footer {
     background-color: #ccc;
