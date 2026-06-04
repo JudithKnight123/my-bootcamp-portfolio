@@ -114,13 +114,6 @@ header {
     max-width: 1100px;
 }
 
-.container .content-header.hp-position {
-order:2;
-}
-.container .content.hp-position {
-order:1;
-}
-
 /* Flexbox content area */
 .content {
     display: flex;
