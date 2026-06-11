@@ -1,3 +1,24 @@
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+.carousel-control-prev-icon::after {
+    content: "←";
+}
+.carousel-control-next-icon::after {
+   content: "→";
+}
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    font-size: 40px;
+    color: black;
+    top: 0;
+    bottom: 0;
+}
