@@ -1,6 +1,6 @@
   $( function() {
     $( "#tabs-block1" ).tabs();
-    $( "#tabs-block2" ).tabs();
+    $( "#accordion" ).accordion();
   } );
 
   $(document).ready(function () {
