@@ -18,7 +18,7 @@ body {
 .carousel-control-prev-icon::after,
 .carousel-control-next-icon::after {
     font-size: 40px;
-    color: #999;
+    color: #eee;
     top: 0;
     bottom: 0;
 }
