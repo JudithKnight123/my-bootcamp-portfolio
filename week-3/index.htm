@@ -2,247 +2,260 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judith Knight Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judith Knight Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 
-    <!-- Bootstrap 4.5 CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.min.css">
+  <!-- Bootstrap 4.5 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.min.css">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-<header class="bg-white text-center p-3">
+  <header class="bg-white text-center p-3">
     <img src="assets/images/freepeople/fp_shopTabLogo_web_251031.svg" alt="Free People Logo" class="logo">
 
-</header>
+  </header>
 
-<!-- Navigation bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+              Disabled
+            </a>
+          </li>
+
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
 
-    <a class="navbar-brand" href="#">Navbar</a>
 
-    <button class="navbar-toggler" type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
 
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="carousel-inner">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/images/freepeople/freepeople-1.jpg" alt="freepeople">
+        </div>
 
-      <ul class="navbar-nav mr-auto">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/freepeople/freepeople-2.jpg" alt="freepeople">
+        </div>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/freepeople/freepeople-3.jpg" alt="freepeople">
+        </div>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+      </div>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#"
-             id="navbarDropdown"
-             role="button"
-             data-toggle="dropdown"
-             aria-haspopup="true"
-             aria-expanded="false">
-            Dropdown
-          </a>
+      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
 
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-            Disabled
-          </a>
-        </li>
-
-      </ul>
-
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
+      <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
 
     </div>
-  </div>
-</nav>
-
-<div class="container">
 
 
-<div id="carouselExample" class="carousel slide" data-ride="carousel">
-
-  <div class="carousel-inner">
-
-     <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/images/freepeople/freepeople-1.jpg" alt="freepeople">
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/freepeople/freepeople-2.jpg" alt="freepeople">
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/freepeople/freepeople-3.jpg" alt="freepeople">
-    </div>
-
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-
-  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-
-</div>
-
-
-   <div class="jumbotron jumbotron-fluid bg-white text-center mt-3">
-        <h1 class="display-4">About Free People UK</h1>
-        <p class="lead">Free People is a specialty women’s clothing brand offering timeless boho fashion for free-spirited women across the UK. Known for its signature blend of vintage-inspired style and modern trends, Free People UK brings effortlessly cool looks that celebrate individuality, creativity, and feminine energy.</p>
+    <div class="jumbotron jumbotron-fluid bg-white text-center mt-3">
+      <h1 class="display-4">About Free People UK</h1>
+      <p class="lead">Free People is a specialty women’s clothing brand offering timeless boho fashion for free-spirited
+        women across the UK. Known for its signature blend of vintage-inspired style and modern trends, Free People UK
+        brings effortlessly cool looks that celebrate individuality, creativity, and feminine energy.</p>
     </div>
 
     <div class="row mt-3">
-        <div class="col-sm">
-<div class="card">
-  <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04A.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2 class="card-title">Best Sellers</h2>
-    <p class="card-text">An ode to the feelings the new season gives us.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
-             </div>
-        <div class="col-sm">
-            <div class="card">
-  <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04B.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2 class="card-title">Throw on and go</h2
-    <p class="card-text">An ode to the feelings the new season gives us.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+      <div class="col-sm">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04A.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Best Sellers</h2>
+            <p class="card-text">An ode to the feelings the new season gives us.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <div class="col-sm">
-            <div class="card">
-  <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04C.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2 class="card-title">The Shirting Shop</h2>
-    <p class="card-text">An ode to the feelings the new season gives us.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-         </div>
+
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04B.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Throw on and go</h2>
+            <p class="card-text">An ode to the feelings the new season gives us.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/freepeople/HP-Desktop-04C.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">The Shirting Shop</h2>
+            <p class="card-text">An ode to the feelings the new season gives us.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <hr class="my-5">
 
-<div class="row mb-4">
-    <div class="col text-center">
+    <div class="row mb-4">
+      <div class="col text-center">
         <h2>Services</h2>
+      </div>
     </div>
-</div>
 
-<div class="row mb-5">
+    <div class="row mb-5">
 
-    <div class="col-12 mb-4">
+      <div class="col-12 mb-4">
         <div id="tabs-block1">
-  <ul>
-    <li><a href="#tabs-1">Nunc tincidunt</a></li>
-    <li><a href="#tabs-2">Proin dolor</a></li>
-    <li><a href="#tabs-3">Aenean lacinia</a></li>
-  </ul>
-  <div id="tabs-1">
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-  <div id="tabs-2">
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-  <div id="tabs-3">
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-</div>
-    </div>
-
-   
-
-        <div class="col-sm-6 col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Landing Page</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+          <ul>
+            <li><a href="#tabs-1">Nunc tincidunt</a></li>
+            <li><a href="#tabs-2">Proin dolor</a></li>
+            <li><a href="#tabs-3">Aenean lacinia</a></li>
+          </ul>
+          <div id="tabs-1">
+            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+              nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie
+              lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula
+              suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare
+              consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis.
+              Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel
+              felis. Mauris consectetur tortor et purus.</p>
+          </div>
+          <div id="tabs-2">
+            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+              nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie
+              lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula
+              suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare
+              consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis.
+              Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel
+              felis. Mauris consectetur tortor et purus.</p>
+          </div>
+          <div id="tabs-3">
+            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id
+              nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie
+              lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula
+              suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare
+              consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis.
+              Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel
+              felis. Mauris consectetur tortor et purus.</p>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-sm-6 col-lg-4 mb-4">
+
+
+      <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Email Template</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title">Landing Page</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Figma Design</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title">Email Template</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
         </div>
-    </div>
+      </div>
 
-     <div class="col-12 mb-4">
-    
-<h2>Isotope - filter tools</h2>
-<div id="filters" class="button-group">  
-  <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".design">design</button>
-  <button class="button" data-filter=".code">code</button>
-  <button class="button" data-filter=".framework">framework</button>
-  <button class="button" data-filter=".backend">backend</button>
-  <button class="button" data-filter=".versioncontrol">version control</button>
-  <button class="button" data-filter=".deployment">deployment</button>
-  <button class="button" data-filter=".package">package</button>
-  <button class="button" data-filter=".devops">devops</button>
- <!--<button class="button" data-filter=":not(.transition)">not transition</button>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h3 class="card-title">Figma Design</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mb-4">
+
+        <h2>Isotope - filter tools</h2>
+        <div id="filters" class="button-group">
+          <button class="button is-checked" data-filter="*">show all</button>
+          <button class="button" data-filter=".design">design</button>
+          <button class="button" data-filter=".code">code</button>
+          <button class="button" data-filter=".framework">framework</button>
+          <button class="button" data-filter=".backend">backend</button>
+          <button class="button" data-filter=".versioncontrol">version control</button>
+          <button class="button" data-filter=".deployment">deployment</button>
+          <button class="button" data-filter=".package">package</button>
+          <button class="button" data-filter=".devops">devops</button>
+          <!--<button class="button" data-filter=":not(.transition)">not transition</button>
   <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
   <button class="button" data-filter="numberGreaterThan50">number > 50</button>
   <button class="button" data-filter="ium">name ends with &ndash;ium</button>-->
-</div>
+        </div>
 
-<!--<h2>Sort</h2>
+        <!--<h2>Sort</h2>
 <div id="sorts" class="button-group">  <button class="button is-checked" data-sort-by="original-order">original order</button>
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="symbol">symbol</button>
@@ -251,223 +264,224 @@
   <button class="button" data-sort-by="category">category</button>
 </div>-->
 
-<div class="grid">
-  <div class="element-item design alkaline-earth" data-category="design">
-    <h3 class="name">Figma</h3>
-    <p class="symbol">Fg</p>
-    <p class="number">01</p>
-    <p class="weight">102.0</p>
-  </div>
-  <div class="element-item code metalloid" data-category="editor">
-    <h3 class="name">VS Code</h3>
-    <p class="symbol">VS</p>
-    <p class="number">02</p>
-    <p class="weight">98.5</p>
-  </div>
-  <div class="element-item versioncontrol alkaline-earth" data-category="repo">
-    <h3 class="name">GitHub</h3>
-    <p class="symbol">GH</p>
-    <p class="number">03</p>
-    <p class="weight">120.2</p>
-  </div>
-  <div class="element-item code metalloid" data-category="debug">
-    <h3 class="name">DevTools</h3>
-    <p class="symbol">CD</p>
-    <p class="number">04</p>
-    <p class="weight">88.1</p>
-  </div>
-  <div class="element-item design post-transition" data-category="no-code">
-    <h3 class="name">Webflow</h3>
-    <p class="symbol">WF</p>
-    <p class="number">05</p>
-    <p class="weight">75.3</p>
-  </div>
-  <div class="element-item framework transition" data-category="css">
-    <h3 class="name">Tailwind CSS</h3>
-    <p class="symbol">TW</p>
-    <p class="number">06</p>
-    <p class="weight">64.9</p>
-  </div>
-  <div class="element-item framework metalloid" data-category="library">
-    <h3 class="name">React</h3>
-    <p class="symbol">R</p>
-    <p class="number">07</p>
-    <p class="weight">45.2</p>
-  </div>
-  <div class="element-item lanthanoid backend" data-category="runtime">
-    <h3 class="name">Node.js</h3>
-    <p class="symbol">ND</p>
-    <p class="number">08</p>
-    <p class="weight">52.7</p>
-  </div>
-  <div class="element-item alkali package" data-category="package">
-    <h3 class="name">npm</h3>
-    <p class="symbol">NP</p>
-    <p class="number">09</p>
-    <p class="weight">33.4</p>
-  </div>
-  <div class="element-item metalloid devops" data-category="devops">
-    <h3 class="name">Docker</h3>
-    <p class="symbol">DK</p>
-    <p class="number">10</p>
-    <p class="weight">110.6</p>
-  </div>
-  <div class="element-item alkali framework" data-category="css-pre">
-    <h3 class="name">Sass</h3>
-    <p class="symbol">SA</p>
-    <p class="number">11</p>
-    <p class="weight">41.8</p>
-  </div>
-  <div class="element-item transition framework " data-category="language">
-    <h3 class="name">TypeScript</h3>
-    <p class="symbol">TS</p>
-    <p class="number">12</p>
-    <p class="weight">70.2</p>
-  </div>
-  <div class="element-item versioncontrol transition " data-category="version-control">
-    <h3 class="name">Git</h3>
-    <p class="symbol">GI</p>
-    <p class="number">13</p>
-    <p class="weight">99.9</p>
-  </div>
-  <div class="element-item deployment" data-category="hosting">
-    <h3 class="name">Vercel</h3>
-    <p class="symbol">VR</p>
-    <p class="number">14</p>
-    <p class="weight">83.3</p>
-  </div>
-  <div class="element-item post-transition deployment" data-category="hosting">
-    <h3 class="name">Netlify</h3>
-    <p class="symbol">NL</p>
-    <p class="number">15</p>
-    <p class="weight">80.4</p>
-  </div>
-  <div class="element-item post-transition deployment" data-category="cms">
-    <h3 class="name">WordPress</h3>
-    <p class="symbol">WP</p>
-    <p class="number">16</p>
-    <p class="weight">95.7</p>
-  </div>
-  <div class="element-item alkali design" data-category="ui-design">
-    <h3 class="name">Sketch</h3>
-    <p class="symbol">SK</p>
-    <p class="number">17</p>
-    <p class="weight">60.1</p>
-  </div>
-  <div class="element-item alkaline-earth backend" data-category="backend">
-    <h3 class="name">Firebase</h3>
-    <p class="symbol">FB</p>
-    <p class="number">18</p>
-    <p class="weight">77.8</p>
-  </div>
-</div>
-    </div>
-
-
-
-    <div class="col-sm-6 col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Poster Design</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+        <div class="grid">
+          <div class="element-item design alkaline-earth" data-category="design">
+            <h3 class="name">Figma</h3>
+            <p class="symbol">Fg</p>
+            <p class="number">01</p>
+            <p class="weight">102.0</p>
+          </div>
+          <div class="element-item code metalloid" data-category="editor">
+            <h3 class="name">VS Code</h3>
+            <p class="symbol">VS</p>
+            <p class="number">02</p>
+            <p class="weight">98.5</p>
+          </div>
+          <div class="element-item versioncontrol alkaline-earth" data-category="repo">
+            <h3 class="name">GitHub</h3>
+            <p class="symbol">GH</p>
+            <p class="number">03</p>
+            <p class="weight">120.2</p>
+          </div>
+          <div class="element-item code metalloid" data-category="debug">
+            <h3 class="name">DevTools</h3>
+            <p class="symbol">CD</p>
+            <p class="number">04</p>
+            <p class="weight">88.1</p>
+          </div>
+          <div class="element-item design post-transition" data-category="no-code">
+            <h3 class="name">Webflow</h3>
+            <p class="symbol">WF</p>
+            <p class="number">05</p>
+            <p class="weight">75.3</p>
+          </div>
+          <div class="element-item framework transition" data-category="css">
+            <h3 class="name">Tailwind CSS</h3>
+            <p class="symbol">TW</p>
+            <p class="number">06</p>
+            <p class="weight">64.9</p>
+          </div>
+          <div class="element-item framework metalloid" data-category="library">
+            <h3 class="name">React</h3>
+            <p class="symbol">R</p>
+            <p class="number">07</p>
+            <p class="weight">45.2</p>
+          </div>
+          <div class="element-item lanthanoid backend" data-category="runtime">
+            <h3 class="name">Node.js</h3>
+            <p class="symbol">ND</p>
+            <p class="number">08</p>
+            <p class="weight">52.7</p>
+          </div>
+          <div class="element-item alkali package" data-category="package">
+            <h3 class="name">npm</h3>
+            <p class="symbol">NP</p>
+            <p class="number">09</p>
+            <p class="weight">33.4</p>
+          </div>
+          <div class="element-item metalloid devops" data-category="devops">
+            <h3 class="name">Docker</h3>
+            <p class="symbol">DK</p>
+            <p class="number">10</p>
+            <p class="weight">110.6</p>
+          </div>
+          <div class="element-item alkali framework" data-category="css-pre">
+            <h3 class="name">Sass</h3>
+            <p class="symbol">SA</p>
+            <p class="number">11</p>
+            <p class="weight">41.8</p>
+          </div>
+          <div class="element-item transition framework " data-category="language">
+            <h3 class="name">TypeScript</h3>
+            <p class="symbol">TS</p>
+            <p class="number">12</p>
+            <p class="weight">70.2</p>
+          </div>
+          <div class="element-item versioncontrol transition " data-category="version-control">
+            <h3 class="name">Git</h3>
+            <p class="symbol">GI</p>
+            <p class="number">13</p>
+            <p class="weight">99.9</p>
+          </div>
+          <div class="element-item deployment" data-category="hosting">
+            <h3 class="name">Vercel</h3>
+            <p class="symbol">VR</p>
+            <p class="number">14</p>
+            <p class="weight">83.3</p>
+          </div>
+          <div class="element-item post-transition deployment" data-category="hosting">
+            <h3 class="name">Netlify</h3>
+            <p class="symbol">NL</p>
+            <p class="number">15</p>
+            <p class="weight">80.4</p>
+          </div>
+          <div class="element-item post-transition deployment" data-category="cms">
+            <h3 class="name">WordPress</h3>
+            <p class="symbol">WP</p>
+            <p class="number">16</p>
+            <p class="weight">95.7</p>
+          </div>
+          <div class="element-item alkali design" data-category="ui-design">
+            <h3 class="name">Sketch</h3>
+            <p class="symbol">SK</p>
+            <p class="number">17</p>
+            <p class="weight">60.1</p>
+          </div>
+          <div class="element-item alkaline-earth backend" data-category="backend">
+            <h3 class="name">Firebase</h3>
+            <p class="symbol">FB</p>
+            <p class="number">18</p>
+            <p class="weight">77.8</p>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-sm-6 col-lg-4 mb-4">
+
+
+      <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Illustration</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title">Poster Design</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card h-100 text-center">
-            <div class="card-body">
-                <h3 class="card-title">Branding Pack</h3>
-                <p class="card-text">Day Rate: £XX.xx</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title">Illustration</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
         </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h3 class="card-title">Branding Pack</h3>
+            <p class="card-text">Day Rate: £XX.xx</p>
+            <a href="#" class="btn btn-dark">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 mb-4">
+        <div id="accordion">
+          <h3>Section 1</h3>
+          <div>
+            <p>
+              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+          </div>
+          <h3>Section 2</h3>
+          <div>
+            <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+              suscipit faucibus urna.
+            </p>
+          </div>
+          <h3>Section 3</h3>
+          <div>
+            <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+              <li>List item one</li>
+              <li>List item two</li>
+              <li>List item three</li>
+            </ul>
+          </div>
+          <h3>Section 4</h3>
+          <div>
+            <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+              mauris vel est.
+            </p>
+            <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
 
- <div class="col-12 mb-4">
-<div id="accordion">
-  <h3>Section 1</h3>
-  <div>
-    <p>
-    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-    </p>
   </div>
-  <h3>Section 2</h3>
-  <div>
-    <p>
-    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-    suscipit faucibus urna.
-    </p>
-  </div>
-  <h3>Section 3</h3>
-  <div>
-    <p>
-    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-    </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
-  </div>
-  <h3>Section 4</h3>
-  <div>
-    <p>
-    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-    mauris vel est.
-    </p>
-    <p>
-    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos.
-    </p>
-  </div>
-</div>
-    </div>
-</div>
-
-
-</div>
 
 
 
 
-<button id="scrollTopBtn">↑ Top</button>
+  <button id="scrollTopBtn">↑ Top</button>
 
-<footer class="text-center p-3 mt-4">
+  <footer class="text-center p-3 mt-4">
     <p>©2026 <a href="https://judithknight.co.uk">Judith Knight</a></p>
-</footer>
+  </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
 
-<script src="assets/script.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>
