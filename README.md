@@ -36,13 +36,13 @@ A personal portfolio webpage from scratch includes a contact form, projects, abo
 
 1. Clone the repository:
 
-```bash
-   git clone https://github.com/judithknight123/my-bootcamp-portfolio.git
+bash
+git clone https://github.com/judithknight123/my-bootcamp-portfolio.git
 
 ## Links
-* [View Week 1 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-1/)
-* [View Week 2 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-2/)
-* [View Week 3 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-3/)
 
-* [GitHub Repository](https://github.com/judithknight123/my-bootcamp-portfolio)
-```
+- [View Week 1 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-1/)
+- [View Week 2 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-2/)
+- [View Week 3 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-3/)
+
+- [GitHub Repository](https://github.com/judithknight123/my-bootcamp-portfolio)
