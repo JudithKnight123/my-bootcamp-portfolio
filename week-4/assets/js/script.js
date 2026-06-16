@@ -53,4 +53,13 @@ newLi.innerHTML = searchInput;
   // 8. append the new paragraph to the searches div
 searchesDiv.appendChild(newLi);
   //TODO:
+  // 9. Button click event - create a delete button
+var clickButton = document.getElementById("clickButton");
+clickButton.innerHTML = "Delete";
+clickButton.addEventListener("click", function () {
+  newLi.remove();
+});
+newLi.appendChild(clickButton); //put Button inside li
+
+saveTerm.value = "";
 }
