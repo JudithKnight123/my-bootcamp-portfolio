@@ -37,6 +37,10 @@ function onClickSaveButton() {
   //TODO:
   var searchInput = saveTerm.value;
   
+  if (searchInput === "") {
+  alert("Please enter a task before adding it.");
+  return;
+}
   // 5. select the searches div using document.getElementById
   var searchesDiv = document.getElementById("searches");
   //TODO:
