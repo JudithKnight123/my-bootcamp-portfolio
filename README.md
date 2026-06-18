@@ -2,6 +2,28 @@
 
 A personal portfolio webpage from scratch includes a contact form, projects, about section, header and navigation.
 
+## Technologies Used
+
+- HTML5 / CSS
+- BOOTSTRAP
+- JQUERY
+
+## Installation & Setup
+
+1. Clone the repository:
+
+bash
+git clone https://github.com/judithknight123/my-bootcamp-portfolio.git
+
+## Links
+
+- [GitHub Repository](https://github.com/judithknight123/my-bootcamp-portfolio)
+
+- [View Week 1 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-1/)
+- [View Week 2 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-2/)
+- [View Week 3 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-3/)
+- [View Week 4 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-4/)
+
 ## Features - Week 1
 
 - **Feature A:** Header - Bold central profile and background fills the full browser space
@@ -25,24 +47,3 @@ A personal portfolio webpage from scratch includes a contact form, projects, abo
 - **Feature C:** jQuery UI Tabs - Implemented interactive tabs to organise content within the page.
 - **Feature D:** Responsive Design - Improved the layout for mobile, tablet and desktop screen sizes.
 - **Feature E:** Bootstrap Components - Added cards, buttons and utility classes to enhance the user interface.
-
-## Technologies Used
-
-- HTML5 / CSS
-- BOOTSTRAP
-- JQUERY
-
-## Installation & Setup
-
-1. Clone the repository:
-
-bash
-git clone https://github.com/judithknight123/my-bootcamp-portfolio.git
-
-## Links
-
-- [View Week 1 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-1/)
-- [View Week 2 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-2/)
-- [View Week 3 Live Site](https://judithknight123.github.io/my-bootcamp-portfolio/week-3/)
-
-- [GitHub Repository](https://github.com/judithknight123/my-bootcamp-portfolio)
